@@ -9,7 +9,7 @@
 }
 
 .app__header > h1 {
-  color: #ce1f36;
+  color: #f75353;
   font-size: 2rem;
 }
 
@@ -52,7 +52,7 @@
   }
 
   .app__header > h1 {
-    color: #fc3c3c;
+    color: #f75353;
     font-size: 1.4rem;
   }
 
@@ -75,14 +75,14 @@
   width: 90%;
   margin-left: 5%;
   margin-right: 5%;
-  background-color: #ce1f36;
+  background-color: #d4402c;
   color: #eff2f5;
   font-weight: 800;
 }
 
 .app__right > button:hover {
   background-color: white;
-  color: #ce1f36;
+  color: #f75353;
 }
 
 #overlay-howto {

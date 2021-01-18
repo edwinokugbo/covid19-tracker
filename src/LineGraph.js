@@ -49,7 +49,7 @@ const options = {
 }
 
 const casesTypeColors = {
-    cases: "#CC1034",
+    cases: "#d4402c",
     recovered: "#6EB81F",
     deaths: "#825CDF",
 };

@@ -189,7 +189,7 @@ function App() {
               title="Coronavirus Cases"
               cases={prettyPrintStat(countryInfo.todayCases)}
               total={prettyPrintStat(countryInfo.cases)}
-              color="#CC1034"
+              color="#f75353"
               displayMode={displayMode}
             />
             <InfoBox

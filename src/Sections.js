@@ -26,7 +26,7 @@ function Sections() {
     <Section className="sections">
       <div id="About" className={`sections__about ${displayMode  ? "darktheme" : ""}`}>
         <div className="">
-          <h3 style={{ color: "#ce1f36" }}>About Us</h3>
+          <h3 style={{ color: "#f75353" }}>About Us</h3>
           <hr />
           <p>
             <br />
@@ -51,7 +51,7 @@ function Sections() {
       </div>
       <div id="Help" className={`sections__help ${displayMode  ? "darktheme" : ""}`}>
         <div className="help__info1">
-          <h3 style={{ color: "#ce1f36" }}>How to use</h3>
+          <h3 style={{ color: "#f75353" }}>How to use</h3>
           <hr />
           <p>
             <br />
@@ -75,7 +75,7 @@ function Sections() {
       </div>
       <div id="Contact" className={`sections__contact ${displayMode  ? "darktheme" : ""}`}>
         <div className="">
-          <h3 style={{ color: "#ce1f36" }}>Contact Us</h3>
+          <h3 style={{ color: "#f75353" }}>Contact Us</h3>
           <hr />
           <p>
             <br />

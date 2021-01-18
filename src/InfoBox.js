@@ -33,7 +33,9 @@ function InfoBox({ title, cases, active, boxColor, total, ...props }) {
       }
       & > .MuiCard-root {
         background-color: black !important;        
-        border: 1px solid #333;
+        border-bottom: 1px solid #333;
+        border-left: 1px solid #333;
+        border-right: 1px solid #333;
         color: white;
       }
       & > MuiTypography-colorTextSecondary {
