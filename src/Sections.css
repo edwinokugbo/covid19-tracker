@@ -1,0 +1,35 @@
+.sections__about {
+    height: 100vh; 
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+}
+
+.sections__help {
+    height: 100vh;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+}
+
+.sections__contact {
+    height: 100vh;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+}
+.darktheme {
+    background-color: black !important;
+    color: white;
+    border-top: 1px solid #333;
+}
+
+body {
+    /* background-color: black; */
+}

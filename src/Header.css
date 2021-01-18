@@ -1,0 +1,44 @@
+.appheader {
+  position: sticky;
+  top: 0;
+  left: 0;
+  /* width: 100vw; */
+  z-index: 1001;
+}
+.appheader ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  /* background-color: rgb(73, 14, 184); */
+}
+
+.appheader li {
+  float: left;
+}
+
+.appheader li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 26px;
+  text-decoration: none;
+}
+
+.appheader li a:hover:not(.active) {
+  background-color: rgb(255, 104, 104);
+}
+
+.appheader .active {
+  background-color: #e00000;
+}
+
+.nav_contact {
+  margin-right: 20px;
+}
+
+@media screen and (max-width: 600px) {
+  .hide-on-mobile {
+    display: none;
+  }
+}
